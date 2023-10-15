@@ -45,7 +45,6 @@ EXTERNAL_APPS =[
     'images',
     'rest_framework',
     'corsheaders',
-    'rembgenv'
 ]
 
 INSTALLED_APPS += EXTERNAL_APPS
@@ -110,7 +109,7 @@ DATABASES = {
     }
 }
 
-DATABASES["default"] = dj_database_url.parse("postgres://rembg_user:hB7PF1clbfJ7Eq607sCqLJYOkYJjZDcL@dpg-ckenemttj22c738i600g-a.oregon-postgres.render.com/rembg")
+# DATABASES["default"] = dj_database_url.parse("postgres://rembg_user:hB7PF1clbfJ7Eq607sCqLJYOkYJjZDcL@dpg-ckenemttj22c738i600g-a.oregon-postgres.render.com/rembg")
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
