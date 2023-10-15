@@ -1,0 +1,9 @@
+django==4.2.5
+djangorestframework==3.14.0
+django-cors-headers==4.2.0
+cvzone==1.6.1
+mediapipe==0.10.5
+numpy==1.26.0
+Pillow==10.0.1
+psycopg2==2.9.9
+dj-database-url==2.1.0
